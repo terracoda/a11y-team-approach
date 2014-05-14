@@ -94,7 +94,6 @@
     <img src="img/istock-stairs-ramp-1.jpg"alt="Building with stairs and an accessible ramp.">
 	 <figcaption style="text-align: center;">We've started to add ramps and remove barriers.</figcaption>
   </figure>
-  
 </section>
 <!--
 <section class="slide">
@@ -195,31 +194,32 @@
 <section class="slide">
   <h2>0. A solid base</h2>
   <div class="step"id="step0">
-	<p>Three essential things are needed for a <strong>solid (valid) code base</strong>. (Valid code is robust code).</p>
+	<p class="speaker-note">Solid code = valid code = robust code.</p>
     <ol>
       <li class="slide">
       	<h3>Document Type</h3>
 		  <p><code>&lt;!DOCTYPE html&gt;</code></p>
-      	  <p>The <em>doctype</em> is your website's building code. Use a strict doctype and validate your pages.</p>
+      	  <p class="speaker-note">The <em>doctype</em> is your website's building code. Use a strict doctype and validate your pages.</p>
       </li>
       <li class="slide">
       	<h3>A Page Title</h3>
 		  <p><code>&lt;title&gt;A Unique Page Title&lt;/title&gt;</code></p>
-      	  <p>A unique <em>title</em> clearly tells the user where he/she is. </p>
+      	  <p class="speaker-note">A unique <em>title</em> clearly tells the user where he/she is. </p>
       </li>
       <li class="slide">
       	<h3>Character Encoding</h3>
 		  <p><code>&lt;meta charset=&quot;UTF-8&quot;&gt;</code></p>
-      	  <p>Ever see funny little symbols instead of letters and punctuation? <span class="speaker-note">It was likely having an encoding problem.</p>
+      	  <p class="speaker-note">Ever see funny little symbols instead of letters and punctuation? <span class="speaker-note">It was likely having an encoding problem.</p>
       </li>
     </ol>
+	<p>Team member: Web designer/developer</p>
     <p><a href="demos/demo-0-base.html">{demo}</a></p>
  </div>
  </section>
 			
 <section class="slide">
   <h2>1. Text: accessible by nature</h2>
-  <p>To ensure text is accessible to all users:</p>
+  <p class="speaker-note">To ensure text is accessible to all users:</p>
     <div class="step"id="step1">		
     <ol>
       <li class="slide">
@@ -230,20 +230,21 @@
 	  </li>
 	  <li class="slide">
 	    <h3>Use meaningful document structure</h3>
-	  	  <p>Logical headings hierarchy, paragraphs, lists, quotations, emphasis, etc.</p>
+	  	  <p class="speaker-note">Logical headings hierarchy, paragraphs, lists, quotations, emphasis, etc.</p>
 	  </li>		
 	  <li class="slide">
 		<h3>Natural linear order</h3>
-	  	 <p>A user should be able to read the content from top to bottom (depending the language, of course) with styles turned off.</p> 
+	  	 <p class="speaker-note">A user should be able to read the content from top to bottom (depending the language, of course) with styles turned off.</p> 
 	  </li>
 	  <li class="slide">
 		<h3>Reading level</h3>
-	  	 <p>Keep it as simple as possible.</p> 
+	  	 <p class="speaker-note">Keep it as simple as possible.</p> 
 	  </li>
     </ol>
     <ul>
 		<li><a href="demos/demo-1-text.html">{demo simple}</a></li>
 		<li><a href="demos-private/ed-3650/content/demo-1-text.html">{demo heading hierarchy}</a></li>
+		<li><a href="demos-private/ed-3650/content/demo-1-text.html">{demo language}</a></li>
 	</ul>
     </div>
 </section>
@@ -251,17 +252,17 @@
 <section class="slide">
   <h2>2. Links &amp; Navigation</h2>
     <div class="step"id="step2">
-	<p>The stepping stones of the internet. Well-planned, consistent navigation benefits all users.</p>		
+	<p class="speaker-note">The stepping stones of the internet. Well-planned, consistent navigation benefits all users.</p>		
     <ol>
       <li class="slide"><h3><em>Skip to Content</em> links</h3>
-          <p>Special links (often hidden) that provide a direct route to the main sections or landmarks.</p>
+          <p class="speaker-note">Special links (often hidden) that provide a direct route to the main sections or landmarks.</p>
 		  <p class="speaker-note"><abbr>HTML5</abbr> has a robust set of new landmark tags.</p>
       </li>
 	  <li class="slide"><h3>Keep navigation consistent</h3>
-          <p>All users love consistency.</p>
+          <p class="speaker-note">All users love consistency.</p>
       </li>
       <li class="slide"><h3>Use meaningful words to distinguish links</h3>
-          <ul>			
+          <ul class="speaker-note">			
 			<li>Clear function: avoid generic <em>read more or click here</em> statements.</li>
 			<li>User control: no forced new tabs.</li>
 		  </ul>
@@ -274,7 +275,7 @@
 <section class="slide">
   <h2>3. Images &amp; Charts</h2>
   <div class="step" id="step3">
-	<p>A text-based alternative to all meaningful visual content is required.</p>  
+	<p class="speaker-note">A text-based alternative to all meaningful visual content is required.</p>  
     <ol>
       <li><h3>Short descriptions</h3>
 		<p><code>&lt;img src=&quot;image-file.jpg&quot; alt=&quot;Description.&quot; &gt;</code></p>
@@ -289,7 +290,7 @@
   		  <p class="speaker-note">May need longer descriptions than is appropriate for the alt attribute.</p>
       	  <ul>
 		  	<li>Link to a supplementary description.</li>
- 		  	<li>Maintain the meaning of the document.</li>
+ 		  	<li>Goal is to maintain the meaning of the document.</li>
 		  </ul>
       </li>
     </ol>
@@ -303,7 +304,7 @@
 <section class="slide">
   <h2>4. Tables</h2>
     <div class="step" id="step4">
-      <p>Use the rich set of semantic table mark-up that is available.</p>
+      <p class="speaker-note">Use the rich set of semantic table mark-up that is available.</p>
       <ol>
 		<li><h3>Keep tables simple</h3>
 			<p class="speaker-note">Simple tables benefit all users.</p>
@@ -317,7 +318,7 @@
 			<p class="speaker-note">Use the scope attribute to give the row or column content direction.</p>
 		</li> 
         <li><h3>Tabular data only</h3>
-	        <p>Use <abbr>CSS</abbr> for layout.</p>
+	        <p class="speaker-note">Use <abbr>CSS</abbr> for layout.</p>
 		</li>
       </ol>
       <p><a href="demos-private/ed-3650/content/demo-4-tables.html">{demo tables}</a></p>
@@ -327,7 +328,7 @@
 <section class="slide">
   <h2>5. Colour &amp; Layout</h2>
     <div class="step" id="step5"> 
-	<p>Accessible colour and layout choices need to be agreed upon at the beginning of project.</p>
+	<p class="speaker-note">Accessible colour and layout choices need to be agreed upon at the beginning of project.</p>
     <ol>
 	  
       <li><h3>Choose Colours Wisely</h3>
@@ -342,7 +343,7 @@
         </ul>	
       </li>
 	  <li><h3>Use <abbr>CSS</abbr> for Layout</h3>
-	    <p>Using <abbr>CSS</abbr> &amp; <abbr>HTML</abbr> together properly gives you the biggest bang in making your content accessible.</p>
+	    <p class="speaker-note">Using <abbr>CSS</abbr> &amp; <abbr>HTML</abbr> together properly gives you the biggest bang in making your content accessible.</p>
 	  </li>
     </ol>
 	<p><a href="http://www.csszengarden.com/">{demo css zen garden}</a></p> 
@@ -352,20 +353,14 @@
 <section class="slide">
   <h2>6. Forms: complex by nature</h2>
     <div class="step" id="step6">
-	<p>Keep things simple. Don&apos;t ask for data you don't need.</p>
+	<p class="speaker-note">Keep things simple. Don&apos;t ask for data you don't need.</p>
     <ol>
 		<li><h3>Label all form controls</h3>
-			<p>Associate a <code>label</code> to every form <code>control</code>.</p></li>
+			<p class="speaker-note">Associate a <code>label</code> to every form <code>control</code>.</p></li>
     	<li><h3>Keep form elements organized</h3>
-			<p>Forms have a rich set of tags: <code>legend</code>, <code>fieldset</code>, <code>optgroup</code>. Grouping like controls together creates organization and meaning.</p></li>
+			<p class="speaker-note">Forms have a rich set of tags: <code>legend</code>, <code>fieldset</code>, <code>optgroup</code>. Grouping like controls together creates organization and meaning.</p></li>
     </ol>
     <p><strong>Note:</strong> Inaccessible forms &amp; complex data tables have been the basis for lawsuits.</p>   
-    <ul>
-		<li><a href="http://canlii.org/en/ca/fca/doc/2012/2012fca161/2012fca161.html">Canada v. Jodhan</a> - job application form.</li>
-		<li><a href="https://www.humanrights.gov.au/bruce-lindsay-maguire-v-sydney-organising-committee-olympic-games">Maguire v. Sidney Organizing Committee for the Olympic Games</a> (<abbr>SOCOG</abbr>) - results table.</li>
-    	
-	</ul>
-	
 	<p>{no demo}</p>
     </div>    
 </section>
