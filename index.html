@@ -174,7 +174,17 @@
 </section>
 
 <section class="slide">
-  <h2>Let's get a move on</h2>
+  <h2>Course Design Team @ <abbr>DELTS</abbr></h2>
+	<p>Three main areas</p>
+			  <ol>
+          <li class="slide"><h3>Content &amp; Instructional Design:</h3> Instructional Designer &amp; Content Author.</li>
+          <li class="slide"><h3>Multimedia:</h3> Video producers, multimedia designers &amp; developers.</li>
+          <li class="slide"><h3>Web Design/Development:</h3> Web design, code content manage the learning environment.</li>
+        </ol>
+</section>
+
+<section class="slide">
+  <h2>Let's go team</h2>
     <figure style="float: left; width: 40%;">
       <img src="img/icon-accessible-icon-project.png" alt="New Sign for International Access. A more active image.">
       <figcaption>Sara Hendren, 2011. The Accessible Icon Project.</figcaption>
@@ -198,28 +208,28 @@
   <div class="step"id="step0">
 	<p class="speaker-note">Solid code = valid code = robust code.</p>
     <ol>
-      <li class="slide">
+      <li>
       	<h3>Document Type</h3>
 		  <p><code>&lt;!DOCTYPE html&gt;</code></p>
       	  <p class="speaker-note">The <em>doctype</em> is your website's building code. Use a strict doctype and validate your pages.</p>
       </li>
-      <li class="slide">
+      <li>
       	<h3>A Page Title</h3>
 		  <p><code>&lt;title&gt;A Unique Page Title&lt;/title&gt;</code></p>
       	  <p class="speaker-note">A unique <em>title</em> clearly tells the user where he/she is. </p>
       </li>
-      <li class="slide">
+      <li>
       	<h3>Character Encoding</h3>
 		  <p><code>&lt;meta charset=&quot;UTF-8&quot;&gt;</code></p>
       	  <p class="speaker-note">Ever see funny little symbols instead of letters and punctuation? <span class="speaker-note">It was likely having an encoding problem.</p>
       </li>
     </ol>
-		<ul class="team">
-			<li>Web Developer</li>
-		</ul>
     <ul class="demo">
 			<li><a href="demos/demo-0-base.html">{demo}</a></li>
 		</ul>
+		<ul class="slide team">
+			<li>Web Developer</li>
+		</ul>   
  </div>
  </section>
 			
@@ -280,7 +290,7 @@
 			</ul>
 			<ul class="team">
 				<li>Instructional Designer &amp; Content Authors</li>
-				<li>Web Developer</li>
+				<li>Web Designer/Developer</li>
 			</ul>
     </div>
  </section>
@@ -306,13 +316,13 @@
 		  		</ul>
       </li>
     </ol>
-		<ul class="team">
-			<li>Instructional Designer &amp; Content Authors</li>
-		</ul>
     <ul class="demos">
 			<li><a href="demos-private/ed-3650/content/demo-3-images.html">{demo image}</a></li>
     	<li><a href="demos-private/ed-3650/content/demo-3-charts.html">{demo diagram}</a></li>
 		</ul>
+		<ul class="slide team">
+			<li>Instructional Designer &amp; Content Authors</li>
+		</ul>  
   </div> 
 </section>
 
@@ -322,9 +332,9 @@
       <p class="speaker-note">Use the rich set of semantic table mark-up that is available.</p>
       <ol>
 		<li><h3>Keep tables simple</h3>
-			<p class="speaker-note">Simple tables benefit all users.</p>
+			<p class="speaker-note">And use them for tabular data, only. CSS is for layout.</p>
 	    </li>
-        <li><h3>Caption your tables</h3>
+      <li><h3>Caption your tables</h3>
 			<code>&lt;caption&gt;Introduce the table here.&lt;/caption&gt;</code>
 			<p class="speaker-note">Table captions are associated directly with the table and give a visually impaired user a brief description of the data and the layout.</p>
 	    </li>       
@@ -332,11 +342,12 @@
 			<code>&lt;th scope=&quot;row&quot;&gt;Describe the table here.&lt;/th&gt;</code>
 			<p class="speaker-note">Use the scope attribute to give the row or column content direction.</p>
 		</li> 
-        <li><h3>Tabular data only</h3>
-	        <p class="speaker-note">Use <abbr>CSS</abbr> for layout.</p>
-		</li>
       </ol>
       <p><a href="demos-private/ed-3650/content/demo-4-tables.html">{demo tables}</a></p>
+			<ul class="slide team">
+				<li>Web Designer/Developer</li>
+				<li>Instructional Designer</li>
+			</ul>
   </div>
 </section>
 
@@ -344,14 +355,14 @@
   <h2>5. Colour &amp; Layout</h2>
     <div class="step" id="step5"> 
 	<p class="speaker-note">Accessible colour and layout choices need to be agreed upon at the beginning of project.</p>
-    <ol>
-	  
+    <ol>  
       <li><h3>Choose Colours Wisely</h3>
       	<ul>
           <li><h4>Don't rely on colour alone for meaning.</h4>
       	     <p class="speaker-note">Use other formatting or icons to communicate important things such as links, state changes and messages.</p>
       	  </li>
-          <li>Test for <strong>sufficient contrast</strong>. Have a minimum standard in place to guide designers.</li>
+          <li>Test for <strong>sufficient contrast</strong>.
+						<p>Have a minimum standard in place to guide designers.</p></li>
 		  <li>Build awareness and avoid <strong>colour confusion</strong>. Try the <a href="http://colorbrewer2.org/">Brewer palette</a>. The <abbr>WCAG</abbr> Samurai have advice on using <a href="http://www.wcagsamurai.org/erratas/brewer/">Brewer colour combinations</a>.</p>
 			<p class="speaker-note">.</p>
       	  </li>
@@ -361,7 +372,12 @@
 	    <p class="speaker-note">Using <abbr>CSS</abbr> &amp; <abbr>HTML</abbr> together properly gives you the biggest bang in making your content accessible.</p>
 	  </li>
     </ol>
-	<p><a href="http://www.csszengarden.com/">{demo css zen garden}</a></p> 
+	<p><a href="http://www.csszengarden.com/">{demo css zen garden}</a></p>
+	
+	<ul class="slide team">
+		<li>Web Designer/Developer</li>
+		<li>Instructional Designer</li>
+	</ul>
    </div>
  </section>
 				
@@ -375,8 +391,13 @@
     	<li><h3>Keep form elements organized</h3>
 			<p class="speaker-note">Forms have a rich set of tags: <code>legend</code>, <code>fieldset</code>, <code>optgroup</code>. Grouping like controls together creates organization and meaning.</p></li>
     </ol>
-    <p><strong>Note:</strong> Inaccessible forms &amp; complex data tables have been the basis for lawsuits.</p>   
-	<p>{no demo}</p>
+    <p><strong>Note:</strong> Inaccessible forms &amp; complex data tables have been the basis for lawsuits.</p> 
+		
+		<ul class="slide team">
+			<li>Multimedia Team</li>
+			<li>Web Designer/Developer</li>
+		</ul> 
+
     </div>    
 </section>
 				
@@ -400,6 +421,10 @@
       <li><a href="http://www.youtube.com/watch?v=rx2Elu7Ik3Y">Andy Griffith Show</a> - captions &amp; audio description with synthetic speech</li>   
       <li><a href="http://www.youtube.com/watch?v=qsYMhHctB0s">Andy Griffith Show</a> - audio description with a human voice</li>
     </ul>
+		
+		<ul class="slide team">
+			<li>Multimedia Team</li>
+		</ul>
        
    </div> 
  </section>
@@ -413,6 +438,9 @@
 	  <li>Test.</li>
 	  <li>Providing equivalent alternatives.</li>
     </ol>
+		<ul class="slide team">
+			<li>Multimedia Team</li>
+		</ul>
    </div>
    <div class="step" id="step9">
 	<h2>9. PDF</h2>
@@ -420,7 +448,10 @@
   	  <li>PDF has its own standard.</li>
       <li>Must be tagged to be accessible.</li>
 	   <li>Can it be converted? Is it feasible?</li>
-    </ul>    
+    </ul>
+		<ul class="slide team">
+			<li>Nobody</li>
+		</ul>    
    </div>
  </section>
 	
@@ -452,7 +483,6 @@
   <h2>Special Thanks</h2>
   <ul>
   	<li>A very special thanks to Andrea Quigley for the lovely new graphics.</li>
-  	<li>Ann Marie Pickup &amp; Nancy Beaton for helping with questions.</li>
   </ul>
   <h2>Resources</h2>
     <ul>
