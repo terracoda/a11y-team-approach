@@ -1,6 +1,5 @@
-/*
-Custom  CSS
-*/
+/* Custom  CSS */
+
 figcaption {
 	text-align: center;
 }
@@ -11,12 +10,16 @@ small {
 	font-size: 1px;
 	text-indent: -10000em;
 }
-
+#what-it-takes {
+	width: 40%;
+	float: right;
+	margin: 0 8% 5% 0;
+}
 #what-it-takes li {
+	padding: 0;
 	color: #000;
 	text-align: right; 
 	font-size: 200%;
-	width: 80%;
 	list-style-type: none;
 }
 .steps-all {
@@ -69,8 +72,12 @@ small {
 }
 
 .panel-left {
+	width: 49%;
 	float: left;
+	background-color: pink;
 }
 .panel-right {
+	width: 49%;
 	float: right;
+	background-color: yellow;
 }
