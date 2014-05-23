@@ -6,30 +6,30 @@
 
     <title>Web Content Accessibility: A Team Approach</title>
 
-	<meta name="description" content="Team aspects of making web content accessible.">
+		<meta name="description" content="Team aspects of making web content accessible.">
     <meta name="author" content="Talieisn L. Smith">
     <meta name="viewport" content="width=1024, user-scalable=no">
 
     <!-- Required stylesheet -->
-    <link rel="stylesheet" media="screen" href="core/deck.core.css">
+    <link rel="stylesheet" type="text/css" href="core/deck.core.css" media="screen">
 
     <!-- Extension CSS files go here. Remove or add as needed. -->
-    <link rel="stylesheet" type="text/css" media="screen" href="extensions/goto/deck.goto.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="extensions/menu/deck.menu.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="extensions/navigation/deck.navigation.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="extensions/status/deck.status.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="extensions/scale/deck.scale.css">
+    <link rel="stylesheet" type="text/css" href="extensions/goto/deck.goto.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="extensions/menu/deck.menu.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="extensions/navigation/deck.navigation.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="extensions/status/deck.status.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="extensions/scale/deck.scale.css" media="screen">
     
     <!-- Style theme. More available in /themes/style/ or create your own. -->
-    <link rel="stylesheet" type="text/css" media="screen" href="themes/style/swiss.css">
-	  <link rel="stylesheet" type="text/css" media="screen" href="custom/custom.css">
+    <link rel="stylesheet" type="text/css" href="themes/style/swiss.css" media="screen">
+	  <link rel="stylesheet" type="text/css" href="custom/custom.css" media="screen">
     
     <!-- Transition theme. More available in /themes/transition/ or create your own. -->
-    <link rel="stylesheet" type="text/css" media="screen" href="themes/transition/fade.css">
+    <link rel="stylesheet" type="text/css" href="themes/transition/fade.css" media="screen">
 
     
     <!-- Basic black and white print styles -->
-    <link rel="stylesheet" media="print" href="core/print.css">
+    <link rel="stylesheet" type="text/css" href="core/print.css" media="print">
     
     <!-- Required Modernizr file -->
     <script src="modernizr.custom.js" type="text/javascript"></script>
@@ -48,22 +48,50 @@
 
 <section class="slide">
   <h2>Formalities</h2>
-    <ol>
-      <li>
-        <h3>Taliesin L. Smith</h3>
+      <h3>Taliesin L. Smith</h3>
          <ul>
            <li>Assistant to Instructional Designer <small><em>(Instructional Design Technologist)</em></small></li>
            <li><abbr>DELTS</abbr>, Memorial University, St. John's, Newfoundland &amp; Labrador</li>
            <li>tlsmith@mun.ca</li>
            <li>GitHub: terracoda</li>
            <li>Presentation at: <a href="https://github.com/terracoda/a11y-team-approach">https://github.com/terracoda/a11y-team-approach</a></li>
-          </ul>
-      </li>
-    </ol>  
+         </ul> 
+</section>
+
+<section class="slide">
+  <h2>The world has changed</h2> 
+    <figure style="display: inline-block; width: 32%;">
+      <img src="img/istock-wheelchair-stairs.jpg" alt="Person in wheelchair at the bottom of large set of stairs.">	  
+    </figure> 
+	  <figure style="display: inline-block; width: 32%;">
+	    <img src="img/istock-sign-ramp-backdoor.jpg"alt="Sign for accessible ramp at the backdoor.">
+	  </figure> 
+	  <figure style="display: inline-block; width: 32%;">
+	    <img src="img/istock-stairs-ramp.jpg"alt="Stairs and an accessible ramp at a building's entrance.">
+	  </figure> 	
+</section>
+
+<section class="slide">
+<h2>The web is a diverse place</h2>
+ <p>Users employ a diverse range of technological devices, including <strong>assistive &amp; adaptive technologies</strong>, to access web content.</p>
+    <figure style="display: inline-block; width: 32%;">
+			<img src="img/at-refreshable-braille.jpg" alt="">
+			<figcaption>Refreshable braille device.</figcaption>	
+	  </figure>
+
+   <figure style="display: inline-block; width: 32%;">
+	   <img src="img/at-kursweil-close-up.jpg" alt="Highlighted text showing where the cursor is.">
+	   <figcaption>Kurzweil 3000.</figcaption>
+   </figure>
+
+	<figure style="display: inline-block; width: 32%;">
+		<img style="height: 384px;" src="http://media02.hongkiat.com/diy-smartphone-tablet-accessories/binder-clip.jpg?new" alt="">
+		<figcaption><abbr>DIY</abbr> smart phone stand. <small><a href="http://www.hongkiat.com/blog/diy-smartphone-tablet-accessories/">honigkiat.com</a></small></figcaption>
+	</figure>
 </section>
 <section class="slide">
-  <h2>What are the stairs on web sites?</h2>  
-	<p class="speaker-note">What are the barriers that people with disabilities face on the web?</p> 
+  <h2>Stairs on web sites?</h2>  
+	<p>What are the barriers that people with disabilities face on the web?</p> 
 	<figure>
    <img src="img/graphics/stairs-nonum-nowords-grey.png" alt="Staircase diagram with 10 steps or stairs.">
   </figure>
@@ -71,7 +99,7 @@
 	 
 <section class="slide">
   <h2>Content types &amp; design choices</h2>
-    <p class="speaker-note">Each type of content, piece of media and even a design choice can be a potential barrier on a website.</p>
+    <p>Each type of content, piece of media and even a design choice can be a potential barrier on a website.</p>
      <figure>
        <img src="img/graphics/stairs-nonum-withwords-grey.png" alt="Staircase diagram with 10 potiential stairs. The starir labels are: solid base, text, link, images, tables, colour, forms,audio and video, mulitmedia, PDF.">
      </figure>
@@ -79,7 +107,7 @@
 	  
 <section class="slide">
   <h2>Web standards &amp; best practices</h2> 
-  <p>Clearly this has to be a <strong>team effort</strong>.</p>
+  <p>Preventing these barriers is a <strong>team effort</strong>. (<a href="http://www.delts.mun.ca/oew.php">http://www.delts.mun.ca/oew.php</a>)</p>
     <figure>
       <img src="img/graphics/stairs-composite.png" alt="Staircase with the steps filled in with a blue ramp.">
     </figure>
@@ -94,79 +122,34 @@
 </section>
 
 <section class="slide">
-  <h2>Course Design &amp; Maintenance Team</h2>
-	<p>Twenty people in the Course Design and Maintenance Team.</p>
+  <h2>Sub Teams</h2>
+	<p>Media Services &amp; Course Design &amp; Maintenance Team</p>
     <figure>
-      <img src="img/private/org-chart-CDM-Team.png" alt="Organizational Chart of DELTS.">		  
+      <img src="img/private/org-chart-sub-teams.png" alt="Organizational Chart of DELTS.">		  
     </figure> 
 </section>
 
 <section class="slide">
-  <h2>My direct group @ DELTS</h2>
-	<p>Five people who code course content and 3 people who help instructors maintain their content.</p>
+  <h2>Content Providers</h2>
+	<p>Three team members get, edit, create content: Instructional designer, Video producer &amp; Copyright Officer.</p>
     <figure>
-      <img src="img/private/org-chart-mygroup.png" alt="Organizational Chart of DELTS.">		  
+      <img src="img/private/org-chart-content-providers.png" alt="Organizational Chart of DELTS.">		  
     </figure> 
 </section>
 
 <section class="slide">
-  <h2>The world has changed</h2> 
-    <figure style="display: inline; width: 33%; padding: 2% 1%;">
-      <img src="img/istock-wheelchair-stairs-cropped.jpg" alt="Person in wheelchair at the bottom of large set of stairs.">		  
-    </figure> 
-	  <figure style="display: inline; width: 33%; padding: 2% 1%;">
-	    <img src="img/istock-sign-ramp-backdoor.jpg"alt="Sign for accessible ramp at the backdoor.">
-		 <figcaption style="text-align: center;">We used to make people take the backdoor.</figcaption>
-	  </figure> 
-	  <figure style="display: inline; width: 33%; padding: 2% 1%;">
-	    <img src="img/istock-stairs-ramp.jpg"alt="Stairs and an accessible ramp at a building's entrance.">
-		 <figcaption style="text-align: center;">We now build accessible entrances.</figcaption>
-	  </figure> 	
-</section>
-
-<section class="slide">
-<h2>A diverse place</h2>
-  <h3>The web is a diverse place</h3>
-    <p>Users employ a diverse range of technological devices, including <strong>assistive &amp; adaptive technologies</strong>, to access web content.</p>
-
-    <figure style="display: inline-block; padding: 2% 1%;">
-			<img src="img/at-refreshable-braille.jpg" alt="">
-			<figcaption>Refreshable braille device.</figcaption>	
-	  </figure>
-
-   <figure style="display: inline-block; padding: 2% 1%;">
-	   <img src="img/at-kursweil-close-up.jpg" alt="Highlighted text showing where the cursor is.">
-	   <figcaption>Kurzweil 3000 (Text to Speech software).</figcaption>
-   </figure>
-
-	<figure style="display: inline-block; padding: 2% 1%;">
-		<img style="height: 384px;" src="http://media02.hongkiat.com/diy-smartphone-tablet-accessories/binder-clip.jpg?new" alt="">
-		<figcaption><abbr>DIY</abbr> smart phone stand. <small><a href="http://www.hongkiat.com/blog/diy-smartphone-tablet-accessories/">honigkiat.com</a></small></figcaption>
-	</figure>
-</section>
-   
-<section class="slide">
-  <h2>What are the stairs on web sites?</h2>  
-	<p class="speaker-note">What are the barriers that people with disabilities face on the web?</p> 
-	<figure>
-      <img src="img/graphics/stairs-nonum-nowords-grey.png" alt="Staircase diagram with 10 steps or stairs.">
-    </figure>
-</section>
-	 
-<section class="slide">
-  <h2>Content types &amp; design choices</h2>
-    <p class="speaker-note">Each type of content, piece of media and even a design choice can be a potential barrier on a website.</p>
-     <figure>
-       <img src="img/graphics/stairs-nonum-withwords-grey.png" alt="Staircase diagram with 10 potiential stairs. The starir labels are: solid base, text, link, images, tables, colour, forms,audio and video, mulitmedia, PDF.">
-     </figure>
-</section>
-	  
-<section class="slide">
-  <h2>Web standards &amp; best practices</h2> 
-  <p class="speaker-note">Clearly this has to be a <strong>team effort</strong>.</p>
+  <h2>Coders</h2>
+	<p>Thirteen touch or create the code.</p>
     <figure>
-      <img src="img/graphics/stairs-composite.png" alt="Staircase with the steps filled in with a blue ramp.">
-    </figure>
+      <img src="img/private/org-chart-coders.png" alt="Organizational Chart of DELTS.">		  
+    </figure> 
+</section>
+
+<section class="slide">
+  <h2>Team Approach</h2>
+    <figure>
+      <img src="img/graphics/team-approach.png" alt="DELTS Course Development Team consists of: Producer, Multimedia Specialist, Content Author, Web Designer, Instructional Designer.">		  
+    </figure> 
 </section>
 
 <section class="slide">
@@ -181,7 +164,7 @@
       <li><strong>Awareness</strong></li>
       <li><strong>Skills</strong></li>
       <li><strong>Resources</strong></li>
-	    <li>Remember, team effort!</li>
+	    <li><strong>A a team effort!</strong></li>
     </ul>
   </div>
 </section>
@@ -466,8 +449,25 @@
 			<li>Nobody</li>
 		</ul>    
    </div>
- </section>
-	
+ </section>	
+
+<section class="slide">
+  <h2>Titanic mistake</h2>   	
+	  <figure>
+			<img src="http://theinspirationroom.com/daily/print/2007/6/denver-museum-titanic.jpg">
+			<figcaption>Denver Museum of Natural History Titanic</figcaption>
+		</figure>
+</section>
+
+<section class="slide">
+  <h2>Music 2011</h2>   	
+	  <figure class="panel-left">
+			<img src="http://www.theispot.com/images/source/Tim_O_Brien__Bowie_for_Rolling_Stone.jpg" alt="Cover of Rolling Stone Magazine featuring a photo of David Bowie dressed as Ziggy Stardust, a flamboyant glam persona he created during the early 1970s.">
+			
+		</figure>
+		<blockquote class="slide">Cover of Rolling Stone Magazine featuring a photo of David Bowie dressed as Ziggy Stardust, a flamboyant glam persona he created during the early 1970s.</blockquote>
+
+</section>
 <section class="slide">
   <h2><q>Accessibility is a design tool</q></h2>   	
   <div class="steps-all">
@@ -492,14 +492,17 @@
 		<small><a href="http://www.pewinternet.org/2012/06/26/cell-internet-use-2012/">(2012 Pew Research)</a></small>
 	</blockquote>
 </section>
+
 <section class="slide">
-  <h2>Special Thanks</h2>
+<h2>References</h2>
+  <h3>Special Thanks</h3>
   <ul>
-  	<li>A very special thanks to Andrea Quigley for the lovely new graphics.</li>
+  	<li>A very special thanks to Andrea Quigley for the new stair graphics.</li>
   </ul>
-  <h2>Resources</h2>
+  <h3>Resources</h3>
     <ul>
-			<li>Horton, S. &amp; Quesenbery, W. (2014) <em>A Web For Everyone.</em> .</li>
+			<li>Smith, T. (2014) <em>Making Web Content Accessibile in 10 Steps or Less</em> <a href="http://www.delts.mun.ca/oew.php">http://www.delts.mun.ca/oew.php</a></li>
+			<li>Horton, S. &amp; Quesenbery, W. (2014) <em>A Web For Everyone.</em> <a href="http://rosenfeldmedia.com/books/a-web-for-everyone/">http://rosenfeldmedia.com/books/a-web-for-everyone/</a></li>
     	<li>Clark, J. (2003) <em>Building accessible websites.</em> Indianapolis: New Riders.</li>
     	<li>Accessible Icon Project: <a href="http://www.accessibleicon.org/">http://www.accessibleicon.org/</a></li>
     	<li><abb>W3C</abb>: <a href="http://www.w3.org/">http://www.w3.org/</a></li>
