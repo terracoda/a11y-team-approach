@@ -73,11 +73,9 @@ small {
 
 .panel-left {
 	width: 49%;
-	float: left;
-	background-color: pink;
+	float: left;;
 }
 .panel-right {
 	width: 49%;
 	float: right;
-	background-color: yellow;
 }
