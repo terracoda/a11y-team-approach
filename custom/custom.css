@@ -71,11 +71,17 @@ small {
    height: 450px;
 }
 
-.panel-left {
+.panel-span-three, .panel-left {
 	width: 49%;
 	float: left;;
 }
 .panel-right {
 	width: 49%;
 	float: right;
+}
+.panel {
+	display: inline-block;
+}
+.span-two {
+	width: 32%;
 }
