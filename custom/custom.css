@@ -10,6 +10,9 @@ small {
 	font-size: 1px;
 	text-indent: -10000em;
 }
+.speaker-note {
+	list-style-type: none;
+}
 #what-it-takes {
 	width: 40%;
 	float: right;
@@ -22,55 +25,49 @@ small {
 	font-size: 200%;
 	list-style-type: none;
 }
+
 .steps-all {
 	height: 900px;
-	background: transparent url(../img/graphics/stairs-background-faded.png) no-repeat center center;	
-
+	background: transparent url(../img/graphics/stairs-background-faded.png) no-repeat center center;  
 }
-/*#steps-all-comp {
-  background: transparent url(../img/graphics/stairs-background-faded.png) 0 0 no-repeat;
-}*/
 .step {
 	background: transparent no-repeat bottom right;
-	height: 900px;
+	min-height: 700px;
 	margin: 0 auto;
 }
 .step ol {
 	width: 70%;
 }
 #step0 {
-  background-image: url(../img/graphics/individual-stairs-0.png);
+  background-image: url(../img/graphics/team-stairs-0.png);
 }
 #step1 {
-  background-image: url(../img/graphics/individual-stairs-1.png);
+  background-image: url(../img/graphics/team-stairs-1.png);
 }
 #step2 {
-  background-image: url(../img/graphics/individual-stairs-2.png);
+  background-image: url(../img/graphics/team-stairs-2.png);
 }
 #step3 {
-  background-image: url(../img/graphics/individual-stairs-3.png);
+  background-image: url(../img/graphics/team-stairs-3.png);
 }
 #step4 {
-  background-image: url(../img/graphics/individual-stairs-4.png);
+  background-image: url(../img/graphics/team-stairs-4.png);
 }
 #step5 {
-  background-image: url(../img/graphics/individual-stairs-5.png);
+  background-image: url(../img/graphics/team-stairs-5.png);
 }
 #step6 {
-  background-image: url(../img/graphics/individual-stairs-6.png);
+  background-image: url(../img/graphics/team-stairs-6.png);
 }
 #step7 {
-  background-image: url(../img/graphics/individual-stairs-7.png);
+  background-image: url(../img/graphics/team-stairs-7.png);
 }  
 #step8 {
-  background-image: url(../img/graphics/individual-stairs-8.png);
-  height: 450px;
+  background-image: url(../img/graphics/team-stairs-8.png);
 }
 #step9 {
-  background-image: url(../img/graphics/individual-stairs-9.png);
-   height: 450px;
+  background-image: url(../img/graphics/team-stairs-9.png);
 }
-
 .panel-span-three, .panel-left {
 	width: 49%;
 	float: left;;
